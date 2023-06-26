@@ -1,0 +1,36 @@
+.thecontainer {
+    background: antiquewhite;
+    width: 400px;
+    height: 400px;
+    border: solid 1px black;
+    margin-left: 34%;
+    margin-top: 5%;
+}
+.thesecondcontainer {
+    margin-left: 42.5%;
+    margin-top: -2%;
+}
+h2 {
+    font-size: 24px;
+    padding: 10px 10px 10px 15px;
+}
+.thethirdcontainer {
+    margin-left: 34%;
+    margin-top: 0%;
+}
+
+.c-loader {
+    animation: is-rotating 2s infinite;
+    border: 6px solid #e5e5e5;
+    border-radius: 50%;
+    border-top-color: #51d4db;
+    height: 50px;
+    width: 50px;
+    margin-left: 20%;
+    margin-top: -8%;
+ }  
+@keyframes is-rotating {
+   to {
+     transform: rotate(1turn);
+   }
+}

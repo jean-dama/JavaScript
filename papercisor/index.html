@@ -3,17 +3,22 @@
     <head>
         <meta charset="UTF-8">
         <title> Jogo Papel e Tesoura</title>
+        <script src="app.js" charset="UTF-8"></script>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-
-        <h2>Jogada do computador: <span id="computer-play"></span></h2>
-        <h2>Sua jogada: <span id="user-play"></span></h2>
-        <h2>Resultado: <span id="result"></span></h2>
-
-        <button id="rock">Pedra</button>
-        <button id="paper">Papel</button>
-        <button id="scissor">Tesoura</button>
-
-        <script src="app.js" charset="UTF-8"></script>
+        <div class="thecontainer">
+            <h2>Jogada do computador: <span id="computer-play"></span></h2>
+            <h2>Sua jogada: <span id="user-play"></span></h2>
+        </div>
+        <div class="thesecondcontainer">
+            <button id="rock">Pedra</button>
+            <button id="paper">Papel</button>
+            <button id="scissor">Tesoura</button>
+        </div>
+        <div class="thethirdcontainer">
+            <h2>Resultado: <span id="result"></span></h2>
+            <div class="c-loader"></div>
+        </div>>
     </body>
 </html>
