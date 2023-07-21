@@ -1,2 +1,3 @@
 # javascript
-javascript projects
+
+Projetos de estudo sobre o javascript.
