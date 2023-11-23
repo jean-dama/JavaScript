@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="area" onclick="clicar()" onmouseover="sobre()" onmouseout="saiu()">
+        Nani
+    </div>
+</body>
+</html>
+<style>
+    div {
+        background-color: #e5842187;
+        color: beige;
+        width: 400px;
+        height: 800px;
+        text-align: center;
+        justify-content: center;
+    }
+</style>
+<script>
+
+    var a = window.document.getElementById('area')
+
+    function clicar() {
+        a.innerText = ' Yamete! '
+        a.style.backgroundColor = 'pink'
+    }
+    function sobre() {
+        a.innerText = 'Tira o mouse de cima'
+        a.style.backgroundColor = 'red'
+    }
+    function saiu() {
+        a.innerText = 'Saiu'
+        a.style.backgroundColor = '#e5842187'
+    }
+
+</script>

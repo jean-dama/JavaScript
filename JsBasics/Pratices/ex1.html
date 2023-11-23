@@ -1,0 +1,59 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="id=edge" />
+        <link rel="styleshet" href="web/style.css" />
+    </head>
+    <body>
+        <header>
+            <div>
+                <h2 id="titulo">Projeto Novo</h2>
+            </div>
+        </header> 
+    </body>
+    <footer>
+
+    </footer>
+</html>
+<script>
+    /*var nome = window.prompt('Insira um nome');
+    window.alert('Olá ' + nome + '!'); //++ faz a contatenação
+
+    var numero1 = window.prompt('Digite um valor');// prompt sempre retorna um string, mesmo se o usuario inserir um numero
+    var numero2 = window.prompt('Digite outro valor');// prompt sempre retorna um string, mesmo se o usuario inserir um numero
+    var soma =  numero1 + numero2 //aqui estamos basicamente juntando as duas strings
+
+    window.alert('A soma dos valores é' + soma);// aqui estamos printando as duas strings juntas
+    motivo é que como falado anteriormente que quando string o + faz a contatenação, ele apenas faz soma se forem dois numeros.*/
+    
+    /*no codigo abaixo esta a forma de alterar string para number*/
+
+    var nome = window.prompt('Insira um nome');
+    window.alert('Olá ' + nome + '!'); //++ faz a contatenação
+
+    var numero1 = Number.parseInt(window.prompt('Digite um valor'));//Number.parseInt esta alterando a string do prompt para number
+    var numero2 = Number.parseInt(window.prompt('Digite outro valor'));//Number.parseInt esta alterando a string do prompt para number
+    var soma =  numero1 + numero2 
+
+    window.alert('A soma dos valores é' + soma);
+    /*Apenas para informacao Number.parseInt vai mudar a string para um numero inteiro, se precisar mudar para num numero real, use 
+    Number.parseFloat ou apenas Number(n), que assim o propro js vai identificar o tipo do numero
+    
+    E outras ações em string, podem ser 
+    s.length  para ver quantos caracteres, 
+    o s.toUpperCase() para ficar maisuculo e 
+    s.toLowerCase() 
+    para minusculo.*/
+
+
+
+</script>
+<style>
+    body {
+        background-color: aqua;
+    }
+    h2 {
+        color: blueviolet;
+    }
+</style>

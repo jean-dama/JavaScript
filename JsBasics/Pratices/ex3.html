@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            color: beige;
+        }
+        .titu {
+            background-color: blueviolet;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="titu">DOM</h1>
+        <p>Nani</p>
+        <p>DOM</p>
+        <div id="click">Clique</div>
+    </div>
+    <script>
+        var p = window.document.getElementsByTagName('p')[0];
+        window.document.write('Bla ' +p.innerText);
+
+        var c = window.document.getElementById('click');
+        c.style.color = '#656565';
+        c.style.backgroundColor = 'white';
+
+        /*var t = window.document.querySelector('h1.class');
+        t.style.backgroundColor = 'gray';
+        t.style.color = 'pink'; querySelector e um modo novo. ainda nao aceito em todos os browsers*/
+    </script>
+    
+</body>
+</html>

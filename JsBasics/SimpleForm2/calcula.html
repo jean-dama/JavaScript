@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Valores</h1>
+        <input type="number" id="number1"/>
+        <input type="number" id="number2"/>
+        <button type="button" onclick="soma()">Calcule</button>
+        <div id="resultado">Resultado</div>
+    </div>
+</body>
+</html>
+<script>
+    function soma() {
+        var n1 = window.document.getElementById('number1')
+        var n2 = window.document.getElementById('number2')
+        var resultado = window.document.getElementById('resultado')
+
+        var numero1 = Number(n1.value)
+        var numero2 = Number(n2.value)
+
+        var soma = numero1 + numero2
+
+        var texto = 'Aqui o resultado: '
+
+        resultado.innerHTML = texto + soma
+
+    }
+</script>

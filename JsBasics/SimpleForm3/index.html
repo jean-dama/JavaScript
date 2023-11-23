@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div><h1>Velocidade</h1></div>
+    <input type="number" id="textvelocidade"/>KM:
+    <input type="button" value="verifica" onclick="Multa()" />
+
+    <div id="resulta"></div>
+
+</body>
+</html>
+<script>
+function Multa() {
+		
+    var lavelocidade = window.document.getElementById('textvelocidade')
+    var resulta = window.document.getElementById('resulta')
+    var km = Number(lavelocidade.value)
+
+        resulta.innerHTML = '<p> Velocidade é de </p>'+ km
+            if (km > 60) {
+                resulta.innerHTML += '<p>Tomele Multa</p>'
+            }
+        resulta.innerHTML = '<p>Continue devagar</p>'
+    }
+</script>
